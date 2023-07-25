@@ -1,6 +1,6 @@
 const Header = ({ hamburger }) => {
   return (
-    <header className="self-stretch bg-gray-white h-[98px] flex flex-row py-[22px] px-20 box-border items-center justify-center sticky w-full top-[0] [background:white] z-[2] text-center text-5xl text-primary-500 font-body-large-400 lg:pl-10 lg:pr-10 lg:box-border md:pl-6 md:pr-6 md:box-border">
+    <header className="self-stretch bg-gray-white h-[98px] flex flex-row py-[22px] px-20 box-border items-center justify-center sticky w-full top-[0] [background:white] z-[2] text-center text-5xl text-primary-500 font-body-regular-600 lg:pl-10 lg:pr-10 lg:box-border md:pl-6 md:pr-6 md:box-border">
       <div className="flex-1 flex flex-row items-center justify-between">
         <div className="flex flex-row items-center justify-center gap-[8px]">
           <img className="relative w-11 h-11" alt="" src="/houseline.svg" />
