@@ -34,21 +34,21 @@ const Hero = () => {
           <div className="self-stretch relative leading-[72px] font-semibold">
             Find Your Dream Home
           </div>
-          <div className="self-stretch relative text-xl leading-[28px] font-body-regular-600 text-primary-50">
+          <div className="self-stretch relative text-xl leading-[28px] font-body-large-400 text-primary-50">
             Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
             posuere cubilia curae; Proin sodales ultrices nulla blandit
             volutpat.
           </div>
         </div>
-        <div className="self-stretch flex flex-col items-center justify-start gap-[17px] text-left text-base text-primary-700 font-body-regular-600">
+        <div className="self-stretch flex flex-col items-center justify-start gap-[17px] text-left text-base text-primary-700 font-body-large-400">
           <div className="flex flex-row items-start justify-start gap-[10px]">
             <button className="cursor-pointer [border:none] py-3 px-6 bg-primary-500 rounded overflow-hidden flex flex-row items-start justify-start">
-              <div className="relative text-base leading-[24px] font-medium font-body-regular-600 text-gray-white text-center">
+              <div className="relative text-base leading-[24px] font-medium font-body-large-400 text-gray-white text-center">
                 Rent
               </div>
             </button>
             <button className="cursor-pointer [border:none] py-3 px-6 bg-gray-white rounded overflow-hidden flex flex-row items-start justify-start">
-              <div className="relative text-base leading-[24px] font-medium font-body-regular-600 text-primary-400 text-center">
+              <div className="relative text-base leading-[24px] font-medium font-body-large-400 text-primary-400 text-center">
                 Sale
               </div>
             </button>
@@ -148,7 +148,7 @@ const Hero = () => {
                 </Dropdown>
               </div>
               <button className="cursor-pointer [border:none] py-3 px-6 bg-primary-500 rounded w-[102px] flex flex-row box-border items-center justify-center hover:bg-steelblue">
-                <div className="relative text-base leading-[24px] font-medium font-body-regular-600 text-gray-white text-center">
+                <div className="relative text-base leading-[24px] font-medium font-body-large-400 text-gray-white text-center">
                   Search
                 </div>
               </button>
