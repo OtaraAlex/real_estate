@@ -24,7 +24,7 @@ module.exports = {
         darkslategray: "#434343",
         lightslategray: "#889099",
         "primary-800": "#1e2640",
-        olivedrab: "#6ea14a",
+        steelblue: "#404f7b",
         "primary-700": "#2c3a61",
         "primary-400": "#6e80b4",
       },
@@ -62,6 +62,9 @@ module.exports = {
       },
       sm: {
         max: "420px",
+      },
+      mq350small: {
+        raw: "screen and (max-width: 350px)",
       },
     },
   },

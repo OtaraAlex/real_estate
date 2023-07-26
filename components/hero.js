@@ -23,7 +23,7 @@ const Hero = () => {
             volutpat.
           </div>
         </div>
-        <div className="self-stretch h-[181px] flex flex-col items-center justify-start gap-[17px] text-left text-base text-primary-700 font-body-regular-600">
+        <div className="self-stretch flex flex-col items-center justify-start gap-[17px] text-left text-base text-primary-700 font-body-regular-600">
           <div className="flex flex-row items-start justify-start gap-[10px]">
             <button className="cursor-pointer [border:none] py-3 px-6 bg-primary-500 rounded overflow-hidden flex flex-row items-start justify-start">
               <div className="relative text-base leading-[24px] font-medium font-body-regular-600 text-gray-white text-center">
@@ -130,10 +130,8 @@ const Hero = () => {
                   </a>
                 </Dropdown>
               </div>
-              <button
-                className="cursor-pointer [border:none] py-3 px-6 bg-olivedrab rounded w-[102px] flex flex-row box-border items-center justify-center"
-                onClick={onSearchCTAClick}
-              >
+              <button className="cursor-pointer [border:none] py-3 px-6 bg-primary-500 rounded w-[102px] flex flex-row box-border items-center justify-center hover:bg-steelblue" 
+                onClick={onSearchCTAClick}>
                 <div className="relative text-base leading-[24px] font-medium font-body-regular-600 text-gray-white text-center">
                   Search
                 </div>
