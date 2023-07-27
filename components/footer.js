@@ -11,9 +11,9 @@ const Footer = () => {
               alt="" src="/houseline.svg" 
             />
             <div className="flex flex-col items-start justify-start">
-              <div className="leading-[24px] font-semibold">REIS</div>
+              <div className="leading-[24px] font-semibold">HomePros</div>
               <div className="text-sm leading-[16px] font-medium">
-                Real State
+                Your Home Hub
               </div>
             </div>
           </div>
